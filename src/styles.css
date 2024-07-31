@@ -1,0 +1,44 @@
+/* Estilos generales */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el contenedor principal */
+#app {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+/*Estilos para el formulario */
+form{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Estilos al input */
+input{
+    width: 75%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* Estilos al boton */
+button {
+    padding: 5px 8px;
+    background-color: #007bff;
+    color:white; 
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
